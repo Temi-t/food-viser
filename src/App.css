@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+
+.App{
+  box-sizing: border-box;
+  padding: 0;
+  margin-top: 0;
+  min-height: 100vh;
+  min-width: 100%;
+  display: flex;
+  display: grid;
+  /* background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);} */
+  background-image: linear-gradient(to top, #9890e3 0%, #050801 100%);
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.search-form{
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-bar{
+  font-size: 20px;
+  width: 50%;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.recipes{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.title{
+  margin-top: 0;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  font-family: 'Dancing Script', cursive;
+  color: rgb(214, 111, 214);
+}
+.intro{
+  display: flex;
+  justify-content: center;
+  color:  rgb(218, 21, 218);
+}
+p .cal{
+  text-align: left;
+}
+.search-button{
+  position: relative;
+  display: inline-block;
+  padding: 10px 30px;
+  color: #03e9f4;
+  font-size: 24px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  letter-spacing: 4px;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+  /* filter: hue-rotate(110deg); */
+  background: #050801;
+  border: none;
+  
+}
+
+.search-button:hover{
+  background: #03e9f4;
+  color: #050801;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 200px #03e9f4;
+}
+.search-button span{
+  position: absolute;
+  display: block;
+}
+.search-button span:nth-child(1){
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #03e9f4);
+  animation: animate1 1s linear infinite;
+}
+@keyframes animate1{
+  0%{
+    left: -100%;
+  }
+  50%, 100%{
+    left: 100%;
+  }
+}
+
+
+
+.search-button span:nth-child(2){
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #03e9f4);
+  animation: animate2 1s linear infinite;
+  animation-delay: 0.25s;
+}@keyframes animate2{
+  0%{
+    top: -100;
+  }
+  50%, 100%{
+    top: 100%;
+  }
+}
+
+.search-button span:nth-child(3){
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #03e9f4);
+  animation: animate3 1s linear infinite;
+  animation-delay: 0.25s;
+}
+@keyframes animate3{
+  0%{
+    right: -100%;
+  }
+  50%, 100%{
+    right: 100%;
+  }
+}
+/* 
+.search-button span:nth-child(4){
+  left: 0;
+  bottom: -100%;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #03e9f4);
+  animation: animate4 1s linear infinite;
+  animation-delay: 0.75s;
+}
+@keyframes animate4{
+  0%{
+    bottom: -100%;
+  }
+  50%, 100%{
+    bottom: 100%;
+  }
+} */

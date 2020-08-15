@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/food-viser/static/css/main.0f2baa64.chunk.css",
+    "main.js": "/food-viser/static/js/main.a5fa7f41.chunk.js",
+    "main.js.map": "/food-viser/static/js/main.a5fa7f41.chunk.js.map",
+    "runtime-main.js": "/food-viser/static/js/runtime-main.e6489cf4.js",
+    "runtime-main.js.map": "/food-viser/static/js/runtime-main.e6489cf4.js.map",
+    "static/js/2.03e12783.chunk.js": "/food-viser/static/js/2.03e12783.chunk.js",
+    "static/js/2.03e12783.chunk.js.map": "/food-viser/static/js/2.03e12783.chunk.js.map",
+    "index.html": "/food-viser/index.html",
+    "precache-manifest.5d27e3d1d434bd1bda9247c61076c2f3.js": "/food-viser/precache-manifest.5d27e3d1d434bd1bda9247c61076c2f3.js",
+    "service-worker.js": "/food-viser/service-worker.js",
+    "static/css/main.0f2baa64.chunk.css.map": "/food-viser/static/css/main.0f2baa64.chunk.css.map",
+    "static/js/2.03e12783.chunk.js.LICENSE.txt": "/food-viser/static/js/2.03e12783.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e6489cf4.js",
+    "static/js/2.03e12783.chunk.js",
+    "static/css/main.0f2baa64.chunk.css",
+    "static/js/main.a5fa7f41.chunk.js"
+  ]
+}
