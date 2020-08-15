@@ -9,10 +9,7 @@
   min-height: 100vh;
   min-width: 100%;
   display: flex;
-  display: grid;
-  /* background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);} */
   background-image: linear-gradient(to top, #9890e3 0%, #050801 100%);
-  min-height: 100vh;
   flex-direction: column;
 }
 
@@ -155,3 +152,25 @@ p .cal{
     bottom: 100%;
   }
 } */
+@media(max-width: 500px){
+
+  .title{
+    position: relative;
+    font-size: 2em;
+  }
+  .intro{
+    margin-left: 10px;
+    font-size: 1em;
+  }
+  .search-bar{
+    display: inline-block;
+    padding: 5px;
+    font-size: 1.2em;
+    color: grey;
+  }
+  .search-button{
+    display: inline-block;
+    font-size: 16px;
+    padding: 5px 20px;
+  }
+}

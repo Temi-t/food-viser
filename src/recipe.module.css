@@ -24,7 +24,17 @@ img{
     justify-content: center;
     /* border-radius: 10px; */
 }
-strong, .cal{
+strong,{
     text-align: left;
 }
+.chol{
+    text-align: center;
+}
 
+@media (max-width: 500px){
+    .recipe{
+        max-width: 260px;
+        min-width: 260px;
+        font-size: 1em;
+    }
+}

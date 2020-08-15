@@ -47,7 +47,7 @@ function App() {
       <h1 className="title">Welcome to Food-Viser</h1>
       <p className= 'intro'>Your number-one-food-adviser is here to guide your daily-diet.</p>
       <form className='search-form' onSubmit={getSearch}>
-        <input className='search-bar' type='text' value= {search} onChange={updateSearch} />
+        <input className='search-bar' type='text' value= {search} onChange={updateSearch} placeholder="pancakes?" />
         <button
          type='submit' 
          className='search-button'>
@@ -66,6 +66,7 @@ function App() {
         calories={recipe.recipe.calories}
         image={recipe.recipe.image} 
         ingredients={recipe.recipe.ingredients}
+        cholesterol={recipe.recipe.totalDaily.CHOLE.quantity}
         />
       ))}
       </div>
