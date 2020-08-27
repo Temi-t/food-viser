@@ -20,6 +20,8 @@
   align-items: center;
 }
 .search-bar{
+  outline: none;
+  color: rgb(54, 2, 54);
   font-size: 20px;
   width: 50%;
   border: none;
