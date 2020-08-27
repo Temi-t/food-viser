@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ##About: 
 Based on food search, his app gives related recipes, calories and amount of contained cholesterol level as a percentage of the daily recommended quantity. 
 
-##Link:  https://temi-t.github.io/food-viser/
+###Food viser Link:  https://temi-t.github.io/food-viser/
 
 
 
