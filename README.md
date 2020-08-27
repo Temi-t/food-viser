@@ -1,5 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+##Name: Food Viser
+
+##About: 
+Based on food search, his app gives related recipes, calories and amount of contained cholesterol level as a percentage of the daily recommended quantity. 
+
+##Link:  https://temi-t.github.io/food-viser/
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
