@@ -44,8 +44,9 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className="title">Welcome to Food-Viser</h1>
-      <p className= 'intro'>Your number-one-food-adviser is here to guide your daily-diet and recipe 🍜</p>
+      <h1 className="title"> Food-Viser</h1>
+      <p className= 'logo'>🍜</p>
+      <p className= 'intro'>Your number-one-food-adviser is here to guide your daily-diet and recipes  </p>
       <form className='search-form' onSubmit={getSearch}>
         <input className='search-bar' type='text' value= {search} onChange={updateSearch} placeholder="  e.g. Hamburger 🍔" />
         <button
