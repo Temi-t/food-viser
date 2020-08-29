@@ -9,7 +9,7 @@
   min-height: 100vh;
   min-width: 100%;
   display: flex;
-  background-image: linear-gradient(to top, #9890e3 0%, /*#050801*/ #290033 100%);
+  background-image: linear-gradient(to top, #9890e3 0%, /*#050801 #290033*/  #0E0F34  100%);
   flex-direction: column;
 }
 
@@ -176,6 +176,7 @@ p .cal{
   .intro{
     margin-left: 10px;
     font-size: 1em;
+    text-align: center;
   }
   .search-bar{
     display: inline-block;
