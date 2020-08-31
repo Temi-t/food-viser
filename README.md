@@ -10,6 +10,17 @@ Based on food search, his app gives related recipes, calories and amount of cont
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
