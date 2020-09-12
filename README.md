@@ -20,7 +20,7 @@ Based on food search, his app gives related recipes, calories and amount of cont
 
 
 
-
+<!--
 ## Available Scripts
 
 In the project directory, you can run:
@@ -86,4 +86,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 ### `npm run build` fails to minify
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify -->
