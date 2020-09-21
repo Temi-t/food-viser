@@ -30,6 +30,9 @@
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
 }
+.search-bar:focus{
+  background: rgb(224, 221, 221);
+}
 
 .recipes{
   display: flex;
