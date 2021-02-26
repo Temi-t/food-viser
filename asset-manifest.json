@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/food-viser/static/css/main.82f23237.chunk.css",
-    "main.js": "/food-viser/static/js/main.db99068a.chunk.js",
-    "main.js.map": "/food-viser/static/js/main.db99068a.chunk.js.map",
+    "main.css": "/food-viser/static/css/main.a24d6de7.chunk.css",
+    "main.js": "/food-viser/static/js/main.22f26152.chunk.js",
+    "main.js.map": "/food-viser/static/js/main.22f26152.chunk.js.map",
     "runtime-main.js": "/food-viser/static/js/runtime-main.e6489cf4.js",
     "runtime-main.js.map": "/food-viser/static/js/runtime-main.e6489cf4.js.map",
     "static/js/2.03e12783.chunk.js": "/food-viser/static/js/2.03e12783.chunk.js",
     "static/js/2.03e12783.chunk.js.map": "/food-viser/static/js/2.03e12783.chunk.js.map",
     "index.html": "/food-viser/index.html",
-    "precache-manifest.50737db785db7a1b2a051386e25c7714.js": "/food-viser/precache-manifest.50737db785db7a1b2a051386e25c7714.js",
+    "precache-manifest.eefc255d63c177486a6bbd96b9617e0f.js": "/food-viser/precache-manifest.eefc255d63c177486a6bbd96b9617e0f.js",
     "service-worker.js": "/food-viser/service-worker.js",
-    "static/css/main.82f23237.chunk.css.map": "/food-viser/static/css/main.82f23237.chunk.css.map",
+    "static/css/main.a24d6de7.chunk.css.map": "/food-viser/static/css/main.a24d6de7.chunk.css.map",
     "static/js/2.03e12783.chunk.js.LICENSE.txt": "/food-viser/static/js/2.03e12783.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e6489cf4.js",
     "static/js/2.03e12783.chunk.js",
-    "static/css/main.82f23237.chunk.css",
-    "static/js/main.db99068a.chunk.js"
+    "static/css/main.a24d6de7.chunk.css",
+    "static/js/main.22f26152.chunk.js"
   ]
 }

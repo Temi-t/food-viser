@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ba9ac7e1110521339f743edb69c5884c",
+    "revision": "8f1439fa301796a43fe18ce32926c859",
     "url": "/food-viser/index.html"
   },
   {
-    "revision": "f23560096f9053d7b13f",
-    "url": "/food-viser/static/css/main.82f23237.chunk.css"
+    "revision": "20d122b252cf0a2a53a3",
+    "url": "/food-viser/static/css/main.a24d6de7.chunk.css"
   },
   {
     "revision": "60a1d32f37df0ca9b9bc",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/food-viser/static/js/2.03e12783.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f23560096f9053d7b13f",
-    "url": "/food-viser/static/js/main.db99068a.chunk.js"
+    "revision": "20d122b252cf0a2a53a3",
+    "url": "/food-viser/static/js/main.22f26152.chunk.js"
   },
   {
     "revision": "8c5dc3ec3fe40e7dc287",
