@@ -24,11 +24,11 @@
   color: rgb(54, 2, 54);
   font-size: 20px;
   width: 50%;
+  height: 22%;
   border: none;
   padding: 10px;
-  border-radius: 10px;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 .search-bar:focus{
   background: rgb(224, 221, 221);
@@ -72,7 +72,9 @@ p .cal{
 .search-button{
   position: relative;
   display: inline-block;
-  padding: 10px 30px;
+  /* padding: 10px 30px; */
+  padding: 8px;
+  /* height: 10%; */
   color: #03e9f4;
   font-size: 24px;
   text-decoration: none;

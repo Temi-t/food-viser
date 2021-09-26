@@ -48,7 +48,7 @@ function App() {
       <p className= 'logo'>🍜</p>
       <p className= 'intro'>Your number-one-food-adviser is here to guide your daily-diet and recipes  </p>
       <form className='search-form' onSubmit={getSearch}>
-        <input className='search-bar' type='text' value= {search} onChange={updateSearch} placeholder="  e.g. Hamburger 🍔" />
+        <input className='search-bar' type='search' value= {search} onChange={updateSearch} placeholder="  e.g. Hamburger 🍔" />
         <button
          type='submit' 
          className='search-button'>
